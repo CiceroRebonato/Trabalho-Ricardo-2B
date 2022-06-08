@@ -1,2 +1,23 @@
 # Trabalho-Ricardo-2B
-fd
+1ª Função: Preecher os campos Estado e Cidade automaticamente após digitar o CEP e clickar fora do campo cep
+
+Script.js 
+  Foi declarado 3 "variaveis" do tipo let, 1 para cada campo
+  logo após foi criado um evento para quando o usuario der o click no campo cep
+  o código atribui a variavel CEP o seu valor de acordo com o oque o usuario digito
+  script.src acessa o link de viacep.com.br com o CEP do usuário e retorna "retorno" com as informações
+  Após retornar com os valores, os valores são selecionados e atribudios dentros dos inputs.
+
+2ª Função: verificar se a senha/confirmar senha e o email/confirmar email são iguais
+
+Script.js
+  Após a função "validar()" ser chamada ela busca os valores de cada id e atribui a uma variável
+  logo após, compara senha com csenha e email com cemail e os que não forem iguais o Navegador dara 
+  um alert avisando quais não estão iguais e retornara um false
+
+
+  
+  
+  
+  
+
