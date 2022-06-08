@@ -6,7 +6,7 @@ Script.js
   logo após foi criado um evento para quando o usuario der o click no campo cep
   o código atribui a variavel CEP o seu valor de acordo com o oque o usuario digito
   script.src acessa o link de viacep.com.br com o CEP do usuário e retorna "retorno" com as informações
-  Após retornar com os valores, os valores são selecionados e atribudios dentros dos inputs.
+  Após retornar com os valores, os valores são selecionados e atribuidos dentros dos inputs.
 
 2ª Função: verificar se a senha/confirmar senha e o email/confirmar email são iguais
 
