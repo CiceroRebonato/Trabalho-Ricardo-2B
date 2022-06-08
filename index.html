@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Refugiei.com</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <header>
+    <div class="center">
+      <div class="logo"><img id="logoR" src="LogoPNGR.jpg"></div>
+      
+      <div class="botoestop">
+        <a href=""><button class="button-header">Home</button></a>
+        <a href=""><button class="button-header">Login</button></a>
+        <a href=""><button class="button-header">Ajuda</button></a>
+        
+      </div>
+    </div>
+  </header>
+          <div class="janela">
+            <div class="edit-img">
+             <img id="ucrania" src="ucrania.jpeg" alt="">
+            </div>
+          <div class="form" >
+              <form>
+              
+              <div class="title"><h1>Cadastro Anfitriã</h1></div>
+              <div class="inputs" >
+
+              <div class="box">
+                <h3>Primeiro Nome:</h3>
+                <input class="input" type="text" placeholder="Digite seu primeiro nome...">
+              </div>
+
+                <div class="box">
+                  <h3>Sobrenome:</h3>
+                  <input class="input" type="text" placeholder="Digite seu sobrenome...">
+                </div>
+
+                <div class="box">
+                  <h3>Email:</h3>
+                  <input class="input" id="email" type="text" placeholder="Digite seu email...">
+                </div>
+
+                <div class="box">
+                  <h3>Confirmar Email:</h3>
+                  <input class="input" id="cemail"type="text" placeholder="Confirme seu email...">
+                </div>
+
+                <div class="box">
+                  <h3>Senha:</h3>
+                  <input class="input" id="senha"type="password" placeholder="Digite sua senha...">
+                  </div>
+                  
+                <div class="box">
+                  <h3>Confirmar Senha:</h3>
+                  <input class="input" id="csenha" type="password" placeholder="Confirme sua senha...">
+                </div>
+
+                <div class="box">
+                  <h3>CEP:</h3>
+                  <input class="input" name="cep"id="cep" type="text" placeholder="Digite seu CEP...">
+                </div>
+
+                <div class="box">
+                  <h3>Estado:</h3>
+                  <input class="input" name="estado"id="estado" type="text" placeholder="Digite seu estado...">
+                </div>
+
+                <div class="box">
+                  <h3>Cidade:</h3>
+                  <input class="input" name="cidade"id="cidade" type="text" placeholder="Digite sua cidade...">
+                </div>
+                
+                </div>
+                <div class="center-cadastrar">
+                  <button class="button-cadastrar" type ="submit" onClick="validar()">Cadastrar</button>
+                
+              </form>
+          </div>
+        </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
